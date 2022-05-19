@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!-- saved from url=(0033)http://127.0.0.1:5500/index.html# -->
+<html lang="pt-br"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Capstone: E-commerce Candle Shop</title>
+
+    
+    
+    
+    
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com/"><link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin=""><link href="./Capstone_ E-commerce Candle Shop_files/css2" rel="stylesheet"><link rel="stylesheet" href="./Capstone_ E-commerce Candle Shop_files/style.css"></head>
+<body>
+    <header class="container">
+        <div class="logo">
+            <p>The Candle Shop</p>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li>
+                    <a href="http://127.0.0.1:5500/index.html#" title="Todos">Todos</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/index.html#" title="Velas">Velas</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/index.html#" title="Difusores">Difusores</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/index.html#" title="Home Spray">Home Spray</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:5500/index.html#" title="Acessórios">Acessórios</a>
+                </li>
+            </ul>
+        </nav>
+        
+    </header>  
+    <main>
+        <section><ul id="tagUl"><li class="card"><img src="./Capstone_ E-commerce Candle Shop_files/1Vanilla.jpeg"><div class="tag">Velas Aromáticas</div><div class="nome">Vela Vanilla</div><div class="descricao">Vela aromática de baunilha</div><div class="preco">R$&nbsp;45,00</div><button class="add_carrinho">Adicionar ao Carrinho</button></li><li class="card"><img src="./Capstone_ E-commerce Candle Shop_files/2Citrus.jpeg"><div class="tag">Velas Aromáticas</div><div class="nome">Vela Citrus</div><div class="descricao">Vela aromática de citrus</div><div class="preco">R$&nbsp;45,00</div><button class="add_carrinho">Adicionar ao Carrinho</button></li><li class="card"><img src="./Capstone_ E-commerce Candle Shop_files/3Menta.jpeg"><div class="tag">Velas Aromáticas</div><div class="nome">Vela Menta</div><div class="descricao">Vela aromática de menta</div><div class="preco">R$&nbsp;45,00</div><button class="add_carrinho">Adicionar ao Carrinho</button></li><li class="card"><img src="./Capstone_ E-commerce Candle Shop_files/4Canela.jpeg"><div class="tag">Velas Aromáticas</div><div class="nome">Vela Canela</div><div class="descricao">Vela aromática de canela</div><div class="preco">R$&nbsp;45,00</div><button class="add_carrinho">Adicionar ao Carrinho</button></li><li class="card"><img src="./Capstone_ E-commerce Candle Shop_files/5Rosas.jpeg"><div class="tag">Velas Aromáticas</div><div class="nome">Vela Rosas</div><div class="descricao">Vela aromática de rosas</div><div class="preco">R$&nbsp;45,00</div><button class="add_carrinho">Adicionar ao Carrinho</button></li><li class="card"><img src="./Capstone_ E-commerce Candle Shop_files/6Lavanda.jpeg"><div class="tag">Velas Aromáticas</div><div class="nome">Vela Lavanda</div><div class="descricao">Vela aromática de lavanda</div><div class="preco">R$&nbsp;45,00</div><button class="add_carrinho">Adicionar ao Carrinho</button></li></ul></section>
+        <aside></aside>
+    </main>  
+    
+
+
+    <script src="./Capstone_ E-commerce Candle Shop_files/database.js"></script>
+    <script src="./Capstone_ E-commerce Candle Shop_files/index.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body></html>
