@@ -1,4 +1,4 @@
-# e-Commerce de Velas
+## e-Commerce de Velas
 
 ## Sobre o Projeto:
 
