@@ -1,4 +1,4 @@
-# e-Commerce FrontEnd
+# Candles e-Commerce FrontEnd
 
 ## About
 This is a frontend application of an e-commerce built with HTML, CSS, JavaScript and DOM. It provides an interface for browsing and buying products. The main goal was to develop a shopping cart, where users can add and remove products and see the final price. 
